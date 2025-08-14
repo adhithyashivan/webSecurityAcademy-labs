@@ -54,3 +54,6 @@ pip install -r requirements.txt
 
 ---
 
+## 📦 Walkthrough of the code
+[Code Walkthrough](https://medium.com/@adhithyasivanesh/portswigger-web-security-academy-labs-sqli-lab-1-retrieving-hidden-data-fe40ea356d5d)
+
