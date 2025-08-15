@@ -1,4 +1,4 @@
-# 🔐 SQL Injection vulnerability using UNION to identify column containing text
+# 🔐 SQL injection UNION attack, retrieving data from other tables
 
 This script is designed to test for basic SQL injection vulnerabilities in labs from PortSwigger's Web Security Academy Lab: [SQL injection UNION attack, retrieving data from other tables](https://portswigger.net/web-security/learning-paths/sql-injection/sql-injection-using-a-sql-injection-union-attack-to-retrieve-interesting-data/sql-injection/union-attacks/lab-retrieve-data-from-other-tables#). It targets endpoints like `/filter?category=` and checks whether a given payload successfully bypasses input validation.
 
