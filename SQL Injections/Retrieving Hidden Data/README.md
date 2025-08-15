@@ -1,4 +1,4 @@
-# 🔐 SQL Injection Tester – Web Security Academy Lab
+# 🔐 SQL injection vulnerability in WHERE clause allowing retrieval of hidden data
 
 This script is designed to test for basic SQL injection vulnerabilities in labs from PortSwigger's Web Security Academy Lab: [SQL injection vulnerability in WHERE clause allowing retrieval of hidden data](hhttps://portswigger.net/web-security/learning-paths/sql-injection/sql-injection-retrieving-hidden-data/sql-injection/lab-retrieve-hidden-data#). It targets endpoints like `/filter?category=` and checks whether a given payload successfully bypasses input validation.
 

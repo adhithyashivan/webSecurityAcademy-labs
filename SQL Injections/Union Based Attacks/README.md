@@ -1,6 +1,6 @@
-# 🔐 SQL Injection Tester – Web Security Academy Lab
+# 🔐 SQL Injection vulnerability using UNION to identify column count
 
-This script is designed to test for basic SQL injection vulnerabilities in labs from PortSwigger's Web Security Academy Lab: [SQL injection vulnerability using UNION to identify count of columns returned by query](https://portswigger.net/web-security/learning-paths/sql-injection/sql-injection-determining-the-number-of-columns-required/sql-injection/union-attacks/lab-determine-number-of-columns#). It targets endpoints like `/filter?category=` and checks whether a given payload successfully bypasses input validation.
+This script is designed to test for basic SQL injection vulnerabilities in labs from PortSwigger's Web Security Academy Lab: [SQL injection vulnerability using UNION to identify count of columns returned by query](https://portswigger.net/web-security/learning-paths/sql-injection/sql-injection-determining-the-number-of-columns-required/sql-injection/union-attacks/lab-determine-number-of-columns). It targets endpoints like `/filter?category=` and checks whether a given payload successfully bypasses input validation.
 
 ---
 

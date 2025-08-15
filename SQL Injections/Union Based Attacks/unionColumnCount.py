@@ -16,6 +16,15 @@ def get_proxy_config():
     }
 
 
+def test_proxy_connection(proxies):
+    test_url = "http://example.com"
+    try:
+        requests.get(test_url, proxies=proxies, timeout=3)
+        return True
+    except requests.RequestException:
+        return False
+
+
 def get_cli_args():
     parser = argparse.ArgumentParser(
         description=(
@@ -64,8 +73,15 @@ def main():
     try:
         disable_ssl_warnings()
         proxies = get_proxy_config()
+
+        if not test_proxy_connection(proxies):
+            print("(-) Proxy unreachable at 127.0.0.1:8080.")
+            print("    ➤ Start Proxy server or disable proxy in the script.")
+            sys.exit(1)
+
         args = get_cli_args()
         attempt_sql_injection(args.url, args.payload, proxies)
+
     except Exception as err:
         print(f"(-) Unexpected error: {err}")
         sys.exit(1)
