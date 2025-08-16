@@ -1,6 +1,6 @@
 # 🔐 SQL injection UNION attack, retrieving multiple values in a single column
 
-This script is designed to test for basic SQL injection vulnerabilities in labs from PortSwigger's Web Security Academy Lab: [SSQL injection UNION attack, retrieving multiple values in a single column](https://portswigger.net/web-security/learning-paths/sql-injection/sql-injection-retrieving-multiple-values-within-a-single-column/sql-injection/union-attacks/lab-retrieve-multiple-values-in-single-column#). It targets endpoints like `/filter?category=` and checks whether a given payload successfully bypasses input validation.
+This script is designed to test for basic SQL injection vulnerabilities in labs from PortSwigger's Web Security Academy Lab: [SQL injection UNION attack, retrieving multiple values in a single column](https://portswigger.net/web-security/learning-paths/sql-injection/sql-injection-retrieving-multiple-values-within-a-single-column/sql-injection/union-attacks/lab-retrieve-multiple-values-in-single-column#). It targets endpoints like `/filter?category=` and checks whether a given payload successfully bypasses input validation.
 
 ---
 
